@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Contact.aspx.cs" Inherits="Nadicia.Models.Contact" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPage.Master" AutoEventWireup="true" CodeBehind="Workshops.aspx.cs" Inherits="Nadicia.Workshops" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     <link href="Main.css" rel="stylesheet" type="text/css" />
 </asp:Content>

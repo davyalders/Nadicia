@@ -12,10 +12,10 @@
     <form id="form1" runat="server">
           <div id="nav">
             <ul>
-            <li><a href="Default.aspx">Home</a></li>
-            <li><a href="Activiteiten.aspx">Activiteiten</a></li>
-            <li><a href="Vogels.aspx">Onze Vogels</a></li>
-            <li><a href="Contact.aspx">Contact</a></li>
+            <li class="navi"><a href="Default.aspx">Home</a></li>
+            <li class="navi"><a href="Activiteiten.aspx">Activiteiten</a></li>
+            <li class="navi"><a href="Vogels.aspx">Onze Vogels</a></li>
+            <li class="navi"><a href="Contact.aspx">Contact</a></li>
             </ul>
           </div>
     <div>

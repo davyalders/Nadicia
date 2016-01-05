@@ -97,13 +97,19 @@
     <Content Include="Activiteiten.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Fotoshoot.aspx" />
+    <Content Include="Kinderfeest.aspx" />
     <Content Include="Main.css" />
+    <Content Include="Roofvogeldemonstratie.aspx" />
+    <Content Include="Roofvogelwandeling.aspx" />
+    <Content Include="Trouwringen.aspx" />
     <Content Include="Vogels.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="MasterPage.Master" />
+    <Content Include="Workshops.aspx" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -139,8 +145,22 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Fotoshoot.aspx.cs">
+      <DependentUpon>Fotoshoot.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fotoshoot.aspx.designer.cs">
+      <DependentUpon>Fotoshoot.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Kinderfeest.aspx.cs">
+      <DependentUpon>Kinderfeest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kinderfeest.aspx.designer.cs">
+      <DependentUpon>Kinderfeest.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
@@ -148,6 +168,27 @@
     </Compile>
     <Compile Include="MasterPage.Master.designer.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Roofvogeldemonstratie.aspx.cs">
+      <DependentUpon>Roofvogeldemonstratie.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Roofvogeldemonstratie.aspx.designer.cs">
+      <DependentUpon>Roofvogeldemonstratie.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Roofvogelwandeling.aspx.cs">
+      <DependentUpon>Roofvogelwandeling.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Roofvogelwandeling.aspx.designer.cs">
+      <DependentUpon>Roofvogelwandeling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Trouwringen.aspx.cs">
+      <DependentUpon>Trouwringen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Trouwringen.aspx.designer.cs">
+      <DependentUpon>Trouwringen.aspx</DependentUpon>
     </Compile>
     <Compile Include="Vogels.aspx.cs">
       <DependentUpon>Vogels.aspx</DependentUpon>
@@ -157,6 +198,13 @@
       <DependentUpon>Vogels.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Workshops.aspx.cs">
+      <DependentUpon>Workshops.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Workshops.aspx.designer.cs">
+      <DependentUpon>Workshops.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
