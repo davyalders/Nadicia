@@ -1,0 +1,33 @@
+﻿body {
+    background-image: url("Background.png");
+}
+    #nav {
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 30%;
+    left: 6%;
+}
+
+ul {
+
+    background: transparent;
+    text-decoration: none;
+}
+a {
+    width: 6em;
+    text-decoration: none;
+    color: Grey;
+    padding: 0.2em 7em;
+}
+
+li {
+    display: inline;
+    padding: 20px;
+
+}
+
+a:hover {
+    color: White;
+    }
+}
