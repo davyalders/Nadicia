@@ -76,6 +76,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.OracleClient" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
@@ -102,6 +103,7 @@
     <Content Include="Main.css" />
     <Content Include="Roofvogeldemonstratie.aspx" />
     <Content Include="Roofvogelwandeling.aspx" />
+    <Content Include="Succes.aspx" />
     <Content Include="Trouwringen.aspx" />
     <Content Include="Vogels.aspx" />
     <Content Include="packages.config" />
@@ -131,6 +133,7 @@
     <Compile Include="Activiteiten.aspx.designer.cs">
       <DependentUpon>Activiteiten.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Bericht.cs" />
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -138,6 +141,7 @@
     <Compile Include="Contact.aspx.designer.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Database.cs" />
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -145,6 +149,7 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Event.cs" />
     <Compile Include="Fotoshoot.aspx.cs">
       <DependentUpon>Fotoshoot.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -182,6 +187,13 @@
     </Compile>
     <Compile Include="Roofvogelwandeling.aspx.designer.cs">
       <DependentUpon>Roofvogelwandeling.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Succes.aspx.cs">
+      <DependentUpon>Succes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Succes.aspx.designer.cs">
+      <DependentUpon>Succes.aspx</DependentUpon>
     </Compile>
     <Compile Include="Trouwringen.aspx.cs">
       <DependentUpon>Trouwringen.aspx</DependentUpon>

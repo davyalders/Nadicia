@@ -5,6 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title></title>
+        <div id="logo"><a href="Default.aspx"><img id="logonadicia"src= "nadicialogo.png" /></a></div> 
       <div id="nav">
             <ul>
             <li class="navi"><a href="Default.aspx">Home</a></li>
