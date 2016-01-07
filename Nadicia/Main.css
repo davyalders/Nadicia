@@ -1,5 +1,6 @@
 ﻿body {
-    background-image: url("Art.jpg");
+    
+    background-color: beige;
     background-size: auto;
     background-attachment: fixed;
 }
@@ -14,8 +15,7 @@
     position: absolute;
     top: 30%;
     left: 16%;
-    background-color: beige;
-    border-radius: 10px;
+    background-color: forestgreen;
     border: 2px solid #808080;
     padding-left: 5px;
     padding-right: 5px;
@@ -31,7 +31,7 @@ ul.navi {
 a {
     width: 6em;
     text-decoration: none;
-    color: Grey;
+    color: white;
     padding: 0.2em 5em;
 }
 
@@ -40,7 +40,7 @@ li.navi {
 }
 
 a:hover {
-    color: White;
+    color: grey;
     }
 
 
@@ -50,23 +50,35 @@ a:hover {
     left: 16%;
     width: 1075px;
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
-    border-radius: 25px;
     border: 2px solid #808080;
     padding: 10px;
-    background-color: beige; 
+    background-color: forestgreen; 
     overflow: auto;
+    padding-bottom: 60px;
 }
 
+h1{
+    color: white;
+}
 h2{
-    color: gray;
+    color: white;
 }
 
 h3{
-    color: gray;
+    color: white;
 }
 
 h4{
-    color: gray;
+    color: white;
+    position:relative;
+}
+
+#reg1 ul{
+    color:white;
+    list-style:outside;
+}
+p{
+    color:white;
 }
 
 ul.activiteiten li {
@@ -80,16 +92,48 @@ ul.activiteiten li {
       border-radius: 25px;
 }
 
+#cobyimg {
+    float:left;
+     border: 2px solid #808080;
+      border-radius: 25px;
+}
+
+#demonstratieimg {
+     margin-left:55px;
+     border: 2px solid #808080;
+      border-radius: 25px;
+     
+}
+
+#baileyimg {
+    float:left;
+     border: 2px solid #808080;
+      border-radius: 25px;
+}
+
+#arwenimg {
+    float:left;
+     border: 2px solid #808080;
+      border-radius: 25px;
+}
+
 #bowie {
   font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   padding: 5px;
 }
 
 #bowie ul{
-    float:left;
+    
     display:normal;
-    list-style:none;
+    list-style: none;
+    color:white;
 
+}
+
+
+#bowie ul li{
+    position:relative;
+     left: 1em;
 }
 
 #bowie p {
@@ -112,6 +156,7 @@ ul.activiteiten li {
     float:left;
     display:normal;
     list-style:none;
+    color:white;
 
 }
 
@@ -119,9 +164,60 @@ ul.activiteiten li {
     float:left;
 }
 
+#thor {
+    float: left;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    padding: 5px;
+}
+#thorimg {
+    float:left;
+    border: 2px solid #808080;
+    border-radius: 25px
+}
+
+#ulthor {
+    float:left;
+    display:normal;
+    list-style:none;
+    color:white;
+}
+
+#thor p{
+   float:left;
+}
+#thor h4{
+    float:left;
+}
+
 #logo{ 
     text-align:center;  
     position: !important;
     z-index: 10000;
+}
+
+td {
+    color:white;
+}
+
+#footer {
+    position:  fixed;
+    left: 16%;
+    width: 1075px;
+    font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+    padding-left:10px;
+    padding-right:10px;
+    background-color: beige;
+    bottom:0px;
+    width: 100%;
+
+}
+
+#footerp {
+    color:black;
+    
+}
+
+#footer img {
+    float: left
 }
 

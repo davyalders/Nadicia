@@ -24,7 +24,11 @@
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         <link href="Main.css" rel="stylesheet" type="text/css" />
         </asp:ContentPlaceHolder>
-    </div>
+         <div id="footer">
+               <p id="footerp">| Copyright © 2016 - Nadicia.nl. Alle rechten voorbehouden.<a href="https://www.facebook.com/Valkerij.Nadicia/?fref=ts"><img src="facebook img.png" /></a></p>
+             
+        </div>
+    </div>    
     </form>
 </body>
 </html>

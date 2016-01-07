@@ -6,7 +6,7 @@
       <div id="reg1">
           <h3>Activiteiten</h3>
           <p>Er zijn verschillende activiteiten die wij uitvoeren, hieronder staan ze voor u uitgelegd.
-              <p>
+             
           <ul class="activiteiten">
               <li><a href="Roofvogeldemonstratie.aspx">Roofvogeldemonstratie</a></li>
               <li><a href="Workshops.aspx">Workshops</a></li>
@@ -16,6 +16,6 @@
               <li><a href="Roofvogelwandeling.aspx">Roofvogelwandeling</a></li>
           </ul>
           
-                Voor prijzen kunt u contact opnemen zodat we aan uw specifieke wensen kunnen voldoen.</p>
+             <p> Voor prijzen kunt u contact opnemen zodat we aan uw specifieke wensen kunnen voldoen.</p>
           </div>
 </asp:Content>

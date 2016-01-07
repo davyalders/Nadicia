@@ -20,7 +20,7 @@ namespace Nadicia.Models
 
         protected void CustomValidator1_ServerValidate(object source, ServerValidateEventArgs args)
         {
-            if (tbBericht.Text.Length > 200)
+            if (tbBericht.Text.Length > 500)
             {
                 args.IsValid = false;
             }
