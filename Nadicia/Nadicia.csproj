@@ -98,9 +98,11 @@
     <Content Include="Activiteiten.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Default.aspx" />
+    <Content Include="Educatief.aspx" />
     <Content Include="Fotoshoot.aspx" />
     <Content Include="Kinderfeest.aspx" />
     <Content Include="Main.css" />
+    <Content Include="Markt.aspx" />
     <Content Include="Roofvogeldemonstratie.aspx" />
     <Content Include="Roofvogelwandeling.aspx" />
     <Content Include="Succes.aspx" />
@@ -149,6 +151,13 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Educatief.aspx.cs">
+      <DependentUpon>Educatief.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Educatief.aspx.designer.cs">
+      <DependentUpon>Educatief.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Event.cs" />
     <Compile Include="Fotoshoot.aspx.cs">
       <DependentUpon>Fotoshoot.aspx</DependentUpon>
@@ -166,6 +175,13 @@
     </Compile>
     <Compile Include="Kinderfeest.aspx.designer.cs">
       <DependentUpon>Kinderfeest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Markt.aspx.cs">
+      <DependentUpon>Markt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Markt.aspx.designer.cs">
+      <DependentUpon>Markt.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage.Master.cs">
       <DependentUpon>MasterPage.Master</DependentUpon>

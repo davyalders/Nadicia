@@ -3,6 +3,7 @@
     <link href="Main.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <div class="wrapper">
     <div id="reg1">
         <h2>Welkom op de website van valkerij nadicia!</h2>
         <p>Altijd al nieuwsgierig geweest naar wat valkerij nou precies inhoudt? of altijd al eens met een roofvogel of uil willen vliegen? Dat kan allemaal bij ons en nog veel meer.</p>
@@ -22,4 +23,5 @@
                 </ItemTemplate>
             </asp:DataList>
     </div>
+         </div>
 </asp:Content>

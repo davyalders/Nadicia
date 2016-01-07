@@ -3,6 +3,7 @@
     <link href="Main.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <div class="wrapper">
     <div id="reg1">
         <h1>Maak kennis met onze vogels</h1>
         
@@ -120,5 +121,7 @@ Coby is een ontzettend leuk klein uiltje! Hij is maar klein maar zijn karakter i
 
 </p>
         </div>
+        </div>
+         </div>
 
 </asp:Content>

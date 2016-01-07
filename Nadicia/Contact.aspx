@@ -3,6 +3,7 @@
     <link href="Main.css" rel="stylesheet" type="text/css" />
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+     <div class="wrapper">
     <div id="reg1">
         <h2>Hier kunt u contact opnemen met Valkerij Nadicia</h2>
 
@@ -41,4 +42,5 @@
         <br />
 
     </div>
+         </div>
 </asp:Content>
