@@ -16,6 +16,41 @@ namespace Nadicia
             d1.DataSource = dt;
             d1.DataBind();
             */
+            if (!IsPostBack)
+            {
+                SetImageUrl();
+            }
         }
+
+        protected void Timer1_Tick(object sender, EventArgs e)
+        {
+            SetImageUrl();
+        }
+
+        private void SetImageUrl()
+        {
+            if (ViewState["ImageDisplayed"] == null)
+            {
+                Image1.ImageUrl = "~/images/1.jpg";
+                ViewState["ImageDisplayed"] = 1;
+            }
+            else
+            {
+                int i = (int) ViewState["ImageDisplayed"];
+                if (i == 6)
+                {
+                    Image1.ImageUrl = "~/images/1.jpg"; 
+                    ViewState["ImageDisplayed"] = 1;
+                }
+                else
+                {
+                    i++;
+                    Image1.ImageUrl = "~/images/" + i.ToString() + ".jpg";
+                    ViewState["ImageDisplayed"] = i;
+                }
+                
+            }
+        }
+
     }
 }

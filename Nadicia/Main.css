@@ -12,9 +12,23 @@
      margin: 0 auto;
 }
 
+#slider {
+    position: absolute;
+    top: 37%;
+    left: 35%;
+    padding-left: 5px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+#slider img{
+    border: 2px solid #808080;  
+}
+
 
 #site {
     padding-top: 500px;
+ 
 }
     #nav {
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
@@ -52,13 +66,12 @@ a:hover {
 
 #reg1 {
     position: absolute;
-    top: 40%;
+    top: 75%;
     width: 1075px;
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     border: 2px solid #808080;
     padding-left:5px;
     background-color: forestgreen; 
-    overflow: auto;
     padding-bottom: 60px;
 }
 
