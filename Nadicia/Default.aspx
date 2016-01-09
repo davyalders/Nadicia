@@ -6,21 +6,31 @@
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div class="wrapper">
         <div id="slider">
-             
-            <asp:ScriptManager ID="ScriptManager1" runat="server">
+
+            <asp:ScriptManager EnablePartialRendering="true" ID="ScriptManager1" runat="server">
             </asp:ScriptManager>
             <asp:Timer ID="Timer1" runat="server" Interval="6000" OnTick="Timer1_Tick"></asp:Timer>
 
             <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Always">
                 <ContentTemplate>
-                   <asp:Image ID="Image1" runat="server"/>
+                    <asp:Image ID="Image1" runat="server"/>
                 </ContentTemplate>
-
+                
                 <Triggers>
                     <asp:AsyncPostBackTrigger ControlID="Timer1" EventName="Tick"/>
                 </Triggers>
             </asp:UpdatePanel>
-           
+
+            <ajaxToolit:UpdatePanelAnimationExtender BehaviorID="animation" ID="upae" runat="server"
+                                                     TargetControlID="UpdatePanel1">
+                <Animations>
+                    <OnUpdated>
+                        <FadeIn Duration="1.0" Fps="24"/>
+                    </OnUpdated>
+                </Animations>
+            </ajaxToolit:UpdatePanelAnimationExtender>
+
+
         </div>
         <div id="reg1">
 

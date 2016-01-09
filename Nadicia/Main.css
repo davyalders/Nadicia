@@ -1,6 +1,6 @@
 ﻿body {
-    
-    background-color: beige;
+
+    background-image: url("panel.jpg");
     background-size: auto;
     background-attachment: fixed;
 
@@ -13,12 +13,14 @@
 }
 
 #slider {
-    position: absolute;
+    position: relative;
     top: 37%;
-    left: 35%;
+    left: 26%;
     padding-left: 5px;
+    margin-top: 32px !important;
     margin-left: auto !important;
     margin-right: auto !important;
+
 }
 
 #slider img{
@@ -35,7 +37,7 @@
     font-weight: bold;
     position: absolute;
     top: 30%;
-    background-color: forestgreen;
+    background-color: beige;
     border: 2px solid #808080;
     padding-left: 5px;
     width: 1075px;
@@ -50,7 +52,7 @@ ul.navi {
 a {
     width: 6em;
     text-decoration: none;
-    color: white;
+    color: grey;
     padding: 0.2em 5em;
 }
 
@@ -59,44 +61,44 @@ li.navi {
 }
 
 a:hover {
-    color: grey;
+    color: white;
     transition: color 0.5s;
     }
 
 
 #reg1 {
-    position: absolute;
-    top: 74.5%;
+    position: relative;
     width: 1075px;
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     border: 2px solid #808080;
     padding-left:5px;
-    background-color: forestgreen; 
+    background-color: beige; 
     padding-bottom: 60px;
+    margin-top:25px;
 }
 
 h1{
-    color: white;
+    color: grey;
 }
 h2{
-    color: white;
+    color: grey;
 }
 
 h3{
-    color: white;
+    color: grey;
 }
 
 h4{
-    color: white;
+    color: grey;
     position:relative;
 }
 
 #reg1 ul{
-    color:white;
+    color:grey;
     list-style:outside;
 }
 p{
-    color:white;
+    color:grey;
 }
 
 ul.activiteiten li {
@@ -144,7 +146,7 @@ ul.activiteiten li {
     
     display:normal;
     list-style: none;
-    color:white;
+    color:grey;
 
 }
 
@@ -211,10 +213,14 @@ ul.activiteiten li {
     position: !important;
     z-index: 10000;
     margin-top: -40px;
+    background-color: transparent;
+    width: 1075px;
+    left: 0px; 
+    right: 0px;
 }
 
 td {
-    color:white;
+    color:grey;
 }
 
 #footer {
@@ -226,8 +232,8 @@ td {
     background-color: beige;
     width: 100%;
     bottom: 0px;
-    left: 290px; 
-    right: 290px;
+    left: 0px; 
+    right: 0px;
 }
 
 #footerp {
