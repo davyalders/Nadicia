@@ -14,21 +14,11 @@
             <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Always">
                 <ContentTemplate>
                     <asp:Image ID="Image1" runat="server"/>
-                </ContentTemplate>
-                
+                </ContentTemplate>               
                 <Triggers>
                     <asp:AsyncPostBackTrigger ControlID="Timer1" EventName="Tick"/>
                 </Triggers>
             </asp:UpdatePanel>
-
-            <ajaxToolit:UpdatePanelAnimationExtender BehaviorID="animation" ID="upae" runat="server"
-                                                     TargetControlID="UpdatePanel1">
-                <Animations>
-                    <OnUpdated>
-                        <FadeIn Duration="1.0" Fps="24"/>
-                    </OnUpdated>
-                </Animations>
-            </ajaxToolit:UpdatePanelAnimationExtender>
 
 
         </div>
