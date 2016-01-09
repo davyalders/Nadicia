@@ -6,7 +6,7 @@
 <head runat="server">
     <title></title>
     <div class="wrapper">
-        <div id="logo"><a href="Default.aspx"><img id="logonadicia"src= "nadicialogo.png"height="428" width="600" /></a></div> 
+        <div id="logo"><a href="Default.aspx"><img id="logonadicia"src= "nadicialogo.png" /></a></div> 
       <div id="nav">
             <ul>
             <li class="navi"><a href="Default.aspx">Home</a></li>

@@ -66,7 +66,7 @@ a:hover {
 
 #reg1 {
     position: absolute;
-    top: 75%;
+    top: 74.5%;
     width: 1075px;
     font-family: 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
     border: 2px solid #808080;
@@ -210,6 +210,7 @@ ul.activiteiten li {
     text-align:center;  
     position: !important;
     z-index: 10000;
+    margin-top: -40px;
 }
 
 td {
