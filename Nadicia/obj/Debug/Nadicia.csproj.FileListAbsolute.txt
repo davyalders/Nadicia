@@ -32,3 +32,36 @@ C:\Users\Davy\documents\visual studio 2015\Projects\Nadicia\Nadicia\obj\Debug\Na
 C:\Users\Davy\documents\visual studio 2015\Projects\Nadicia\Nadicia\obj\Debug\Nadicia.dll
 C:\Users\Davy\documents\visual studio 2015\Projects\Nadicia\Nadicia\obj\Debug\Nadicia.pdb
 C:\Users\Davy\documents\visual studio 2015\Projects\Nadicia\Nadicia\bin\AjaxControlToolkit.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\ApplicationInsights.config
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\roslyn\csc.exe
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\roslyn\vbc.exe
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\roslyn\VBCSCompiler.exe
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Nadicia.dll.config
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Nadicia.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Nadicia.pdb
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.AI.Web.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.ApplicationInsights.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.AI.Web.xml
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.ApplicationInsights.xml
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\obj\Debug\Nadicia.csprojResolveAssemblyReference.cache
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\obj\Debug\Nadicia.dll
+C:\Users\davy\Documents\GitHub\Nadicia\Nadicia\obj\Debug\Nadicia.pdb

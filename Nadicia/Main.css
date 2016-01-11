@@ -20,7 +20,8 @@
     margin-top: 32px !important;
     margin-left: auto !important;
     margin-right: auto !important;
-
+    height: 400px;
+    width: 600px;
 }
 
 #slider img{

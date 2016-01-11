@@ -11,7 +11,7 @@
             </asp:ScriptManager>
             <asp:Timer ID="Timer1" runat="server" Interval="6000" OnTick="Timer1_Tick"></asp:Timer>
 
-            <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Always">
+            <asp:UpdatePanel ID="UpdatePanel1" runat="server" UpdateMode="Always" RenderMode="Inline">
                 <ContentTemplate>
                     <asp:Image ID="Image1" runat="server"/>
                 </ContentTemplate>               
