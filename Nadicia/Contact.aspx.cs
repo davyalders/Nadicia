@@ -60,7 +60,7 @@ namespace Nadicia.Models
             try
             {
                 message.From = new MailAddress("valkerijnadicia@gmail.com");
-                message.To.Add("Davyalders@gmail.com");
+                message.To.Add("nadicia@nadicia.nl");
                 message.Subject = "Bericht van de site";
                 message.Body = sb.ToString();
                 message.IsBodyHtml = true;
